@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Game</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container__contenido">
+            <div class="container__informaciones">
+                <div class="container__texto">
+                    <h1></h1>
+                    <h2></h2>
+                    <h3></h3>
+                    <p class="texto__parrafo">1- Índice de masa corporal</p>
+                    <p class="texto__parrafo">2- Factorial de un número</p>
+                    <p class="texto__parrafo">3- Convertir u$d a Reales</p>
+                    <p class="texto__parrafo">4- Área y perímetro de una sala rectangular</p>
+                    <p class="texto__parrafo">5- Área y perímetro de una sala circular</p>
+                    <p class="texto__parrafo">6- Tabla de multiplicar</p>
+                </div>
+                
+                <div class="chute container__botones">
+                    <button onclick="indiceDeMasaCorporal();" class="punto__boton" id="uno" >1</button>
+                    <button onclick="factorialDeNumero();" class="punto__boton" id="dos" >2</button>
+                    <button onclick="valorDolar();" class="punto__boton" id="tres" >3</button>
+                    <button onclick="areaYperimetroRectangulo();" class="punto__boton" id="cuatro" >4</button>
+                    <button onclick="radioSalaCircular();" class="punto__boton" id="cinco" >5</button>
+                    <button onclick="pideUnNumeroParaLaTabla();" class="punto__boton" id="seis" >6</button>
+                    <!--<button class="container__boton" id="reiniciar" disabled>Nuevo juego</button> -->
+                </div>
+            </div>
+            <img src="./img/figuras.png" alt="Figuras geometricas" class="container__imagen-persona" />
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
